@@ -1,4 +1,3 @@
-# ichisantoshi.ga
 ## Thông tin liên hệ
 ### **Phú Trương**
 **FB:** [Ichisantoshi](https://fb.com/ichisantoshi1)
