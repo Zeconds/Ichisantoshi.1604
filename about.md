@@ -7,4 +7,4 @@
 **Mail:** [Truongquangphu13520006@gmail.com]
 
 #### Sinh nhật này <(")
-[`here`](https://minhlacon.ga/birthday)
+[`here`](https://ichisantoshi.ga/birthday)
