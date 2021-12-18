@@ -54,7 +54,6 @@ input#click {
   transition: .3s;
   cursor: pointer;
 }
-
 .click:before {
   content:"";
   position: absolute;
@@ -63,7 +62,6 @@ input#click {
   background-color: #e76f51;
   left:69px;
 }
-
 .click:after {
   content:"";
   position: absolute;
@@ -102,7 +100,6 @@ input#click {
   z-index:-2;
   left:40px;
 }
-
 .spark1, .spark2, .spark3, .spark4, .spark5, .spark6 {
   position: absolute;
   background-color: #fee440;
@@ -110,7 +107,6 @@ input#click {
   top:-9px;
   z-index:-1;
 }
-
 .spark1 {
   width: 8px;
   height:8px;
@@ -118,7 +114,6 @@ input#click {
   top:-9px;
   animation: fire 0.9s ease-in-out infinite, color 0.4s linear infinite;
 }
-
 .spark1:before {
   content:"";
   position: absolute;
@@ -129,7 +124,6 @@ input#click {
   background-color: #fee440;
   border-radius:50%;
 }
-
 .spark2 {
   width: 9px;
   height:9px;
@@ -137,7 +131,6 @@ input#click {
   top:-5px;
   animation: fire2 0.28s ease-in-out infinite, color 0.4s linear infinite;
 }
-
 .spark2:before {
   content:"";
   position: absolute;
@@ -148,7 +141,6 @@ input#click {
   background-color: #fee440;
   border-radius:50%;
 }
-
 .spark3 {
   width: 8.5px;
   height:8.5px;
@@ -156,7 +148,6 @@ input#click {
   top:-5px;
   animation: fire3 0.36s ease-in-out infinite, color2 0.4s linear infinite;
 }
-
 .spark3:before {
   content:"";
   position: absolute;
@@ -192,27 +183,27 @@ input#click {
   animation: fire 0.35s ease-in-out infinite, color2 0.2s linear infinite;
 }
   
-@keyframes fire3 {
+keyframes fire3 {
   100% { transform:translateX(20px) translateY(-93px); 
          opacity: 0.3; }
 }
 
-@keyframes fire2 {
+keyframes fire2 {
   100% { transform:translateX(-5px) translateY(-90px); 
          opacity: 0.3; }
 }
 
-@keyframes fire {
+keyframes fire {
   100% { transform:translateX(-25px) translateY(-95px); 
          opacity: 0.3; }
 }
 
-@keyframes color {
+keyframes color {
   from {background-color: #d00000;}
   to {background-color: #0081a7;}
 }
 
-@keyframes color2 {
+keyframes color2 {
   from {background-color: #8cff00;}
   to {background-color: #1d2d44;}
 }
