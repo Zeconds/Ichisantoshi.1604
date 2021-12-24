@@ -13,7 +13,7 @@ body {
 }
 
 .card {
-  perspective: 1500px;
+  perspective: 150px;
   position: absolute;
   left: calc(50% - 175px);
   top: calc(50% - 250px);
