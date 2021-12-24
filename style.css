@@ -15,8 +15,8 @@ body {
 .card {
   perspective: 1500px;
   position: absolute;
-  left: calc(50% - 155px);
-  top: calc(50% - 230px);
+  left: calc(50% - 175px);
+  top: calc(50% - 250px);
   transition-property: transform;
   transition-duration: 1s;
   transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
