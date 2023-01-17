@@ -6,9 +6,9 @@
 
     .scene {
         width: 80%;
-        height: 100%;
+        /* height: 100%; */
         position: fixed;
-        top: 0;
+        bottom: 30px;
         left: 10%;
         display: none;
     }
@@ -75,3 +75,4 @@
             opacity: 1;
         }
     }
+    
