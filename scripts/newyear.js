@@ -132,7 +132,7 @@
                     ease: Power2.easeIn
                 });
                 TweenMax.to("#img", 1, {
-                    y: 800,
+                    y: 900,
                     ease: Power2.easeIn
                 });
                 TweenMax.to(".gift", 1, {
