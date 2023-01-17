@@ -5,7 +5,7 @@
 
             var viewBoxes = {
                 overHouses: {
-                    x: 43,
+                    x: 43, 
                     y: 290,
                     width: 130,
                     height: 67
